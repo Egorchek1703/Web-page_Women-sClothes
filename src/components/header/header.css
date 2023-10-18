@@ -1,0 +1,67 @@
+.header{
+    padding: 46px 0 56px;
+}
+.header .container{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    overflow: hidden;
+}
+.logo-name{
+    height: 100%;
+}
+.logo-name a{
+    max-height: inherit;
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 34px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-li{
+margin-right: 10px;
+}
+.nav-li a{
+    font-weight: 700;
+    font-size: 18px;
+    transition: all ease-out .6s;
+    padding: 0 10px 10px 10px;
+    border-bottom: 2px solid transparent;
+}
+.nav-li a:hover{
+    border-bottom: 2px solid black;
+}
+
+.sign-up-btn{
+    padding: 10px 16px;
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    transition: all ease-out .3s;
+}
+.sign-up-btn:hover{
+    color: black;
+    background: white;
+    border: 2px solid black;
+}

@@ -1,0 +1,15 @@
+.youngs-favourite{
+    margin-bottom: 50px;
+}
+.youngs-favourite .container > h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+.youngs-favourite .container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

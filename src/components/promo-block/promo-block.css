@@ -1,0 +1,81 @@
+.promo-block .container{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+    background-color: #F4F6F5;
+    border-radius: 60px;
+    margin-bottom: 60px;
+}
+.promo-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex: 4;
+    padding-left: 60px;
+}
+.promo-info h2{
+    font-size: 76px;
+    max-width: 480px;
+    font-weight: 900;
+    line-height: 90px;
+    padding: 30px 0 30px 0;
+    letter-spacing: -2px;
+    position: relative;
+}
+.promo-info h2 .highlight span{
+    position: relative;
+    z-index: 200;
+}
+.promo-info h2 .highlight::after{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 100px;
+    z-index: 1;
+    top: 210px;
+    left: -16px;
+    background-color: #EBD96B;
+    transform: rotate(-2deg);
+}
+.promo-info p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.line-and-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.line-and-btn img{
+    width: 50%;
+    cursor: pointer;
+}
+.line-and-btn button{
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    transition: all ease-out .3s;
+}
+.line-and-btn button:hover{
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+}
+.promo-img{
+    flex: 5;
+}
+.promo-img img{
+    width: 100%;
+    height: auto;
+    max-height: 570px;
+    border-radius: 60px;
+}

@@ -1,0 +1,82 @@
+.promo-block2{
+    background: #FAE157;
+    margin-bottom: 60px;
+}
+.promo-block2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    height: auto;
+    overflow: hidden;
+    padding: 30px;
+}
+.promo-block2 .container img{
+    max-height: 100%;
+    flex: 1.1;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all ease-out .2s;
+}
+.promo-block2 .container img:hover{
+    transform: scale(1.01);
+}
+.promo-block2 .description{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.promo-block2 .description h2{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 100px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.promo-block2 .description h2 .highlight::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 100%;
+    height: 100px;
+    transform: rotate(-2deg);
+    background: white;
+}   
+.promo-block2 .description h2 .highlight span{
+    position: relative;
+    z-index: 2;
+    color: #FAE157;
+}
+
+.promo-block2 .description p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.promo-block2 .description-sale{
+    font-weight: 600;
+}
+.promo-block2 .description-date{
+    font-weight: 700;
+}
+.promo-block2 .description-conditions{
+    font-style: italic;
+    font-weight: 500;
+}
+.promo-block2 .description button{
+    padding: 13px 18px;
+    font-weight: 700;
+    font-size: 26px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: black;
+    color: #FAE157;
+    transition: all ease-out .3s;
+}
+.promo-block2 .description button:hover{
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+}

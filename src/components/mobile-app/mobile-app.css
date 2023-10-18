@@ -1,0 +1,50 @@
+.mobile-app{
+    margin-bottom: 30px;
+}
+.mobile-app .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84%;
+}
+
+.mobile-app .container .app-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+.mobile-app .container .app-info h3{
+    font-size: 62px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: -3px;
+}
+.mobile-app .container .app-info p{
+    font-size: 22px;
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 40px;
+}
+.mobile-app .container .app-info .app-download-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.mobile-app .container .app-info .app-download-links img{
+    cursor: pointer;
+    width: 80%;
+    transition: all ease-out .3s;
+}
+.mobile-app .container .app-info .app-download-links img:hover{
+    transform: scale(1.01);
+}
+
+.mobile-app .container .app-image{
+    flex: 1;
+}
+.mobile-app .container .app-image a img{
+    max-height: 80%;
+}
